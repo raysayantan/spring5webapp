@@ -43,8 +43,8 @@ public class Author {
         return lastname;
     }
 
-    public void setLadtname(String ladtname) {
-        this.lastname = ladtname;
+    public void setLadtname(String lastname) {
+        this.lastname = lastname;
     }
 
     public Set<Book> getBooks() {
@@ -61,7 +61,6 @@ public class Author {
                 "id=" + id +
                 ", firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
-                ", books=" + books +
                 '}';
     }
 
